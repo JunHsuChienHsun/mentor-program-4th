@@ -22,9 +22,29 @@ Codewar 是一個程式解題平台，上面充滿著各種開發者出的題目
 
 ## 零顆星（超簡單）
 
-### ❌ Opposite number
+### ✅ Opposite number
 題目連結：https://www.codewars.com/kata/opposite-number/javascript  
 題目說明：正數變負數，反之亦然
+
+function opposite(x) {
+  //your code here
+    if (x >= 0) 
+      return (x, x-2*x);
+    else (x < 0) 
+      return (x , x*-1);
+}
+opposite(4);
+opposite(-6);
+=============
+Test Results:
+Test Passed: Value == -1
+You have passed all of the tests! :)
+
+//*
+坦白說我之前完全沒摸過JS，根本一頭霧水不知道語法要怎麼寫，但是後來想起我學HTML時候的好朋友W3school，
+一直找JS的基礎語法說明，才終於在JS condition裡面找到if後面應該要用()把條件匡起來才能運行。
+最後就是用國小數學暴力破解了。
+*//
 
 ### ❌ Even or Odd
 題目連結：https://www.codewars.com/kata/even-or-odd/javascript  
